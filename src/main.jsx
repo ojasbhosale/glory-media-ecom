@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
-import { CartProvider } from './context/CartProvider';   // ✅ FIXED PATH
+import { CartProvider } from './context/CartProvider';   
 import ErrorBoundary from './components/ErrorBoundary';
 import { Tornado } from 'lucide-react';
 
